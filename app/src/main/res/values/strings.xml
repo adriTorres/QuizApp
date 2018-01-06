@@ -1,0 +1,25 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Quiz App</string>
+    <string name="hint_name">Introduce your name</string>
+    <string name="question1">QUESTION 1: What is the videogame\'s name that appears in the picture?</string>
+    <string name="q1a1">Pac-Man</string>
+    <string name="q1a2">Donkey Kong</string>
+    <string name="q1a3">Dark souls</string>
+    <string name="q1a4">Tetris</string>
+    <string name="question2">QUESTION 2: What are the names of these two characters?</string>
+    <string name="hint_console">Console\'s abbreviated name</string>
+    <string name="question3">QUESTION 3: What is the abbreviated name of this video game console?</string>
+    <string name="q4a4">No Man\'s Sky</string>
+    <string name="q4a3">The Legend of Zelda: Breath of the Wild</string>
+    <string name="q4a2">Dark Souls 3</string>
+    <string name="q4a1">Overwatch</string>
+    <string name="question4">QUESTION 4: Which game won the Best Game of the Year 2016 award?</string>
+    <string name="submit_answers">Submit Answers</string>
+    <string name="solQ1">QUESTION 1: Pac-Man</string>
+    <string name="solQ2"><![CDATA[QUESTION 2: Mario & Link]]></string>
+    <string name="solQ3">QUESTION 3: NES</string>
+    <string name="solQ4">QUESTION 4: Overwatch</string>
+    <string name="correct_answers">Congrats, <xliff:g id="name" example="Amy">%s</xliff:g>. You got <xliff:g id="nCorrect" example="2">%d</xliff:g> correct answers. Check out the solution below. </string>
+    <string name="show_solution">Solution</string>
+    <string name="toast">You got  <xliff:g id="cAnsw" example="2">%d</xliff:g> of <xliff:g id="nTotal" example="2">%d</xliff:g> questions right.</string>
+</resources>

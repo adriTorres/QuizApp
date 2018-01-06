@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Quiz App</string>
+    <string name="hint_name">Introduce tu nombre</string>
+    <string name="question1">PREGUNTA 1: ¿Cuál es el nombre del videojuego que aparece en la imagen?</string>
+    <string name="question2">PREGUNTA 2: ¿Cuáles son los nombres de estos dos personajes?</string>
+    <string name="hint_console">Nombre de la consola abreviado</string>
+    <string name="question3">PREGUNTA 3: ¿Cuál es el nombre abreviado de esta videoconsola?</string>
+    <string name="question4">PREGUNTA 4: ¿Qué videojuego ganó el premio de Mejor Juego del Año 2016?</string>
+    <string name="submit_answers">Confirmar Respuestas</string>
+    <string name="show_solution">Solución</string>
+    <string name="solQ3">PREGUNTA 3: NES</string>
+    <string name="solQ4">PREGUNTA 4: Overwatch</string>
+    <string name="solQ2"><![CDATA[PREGUNTA 2: Mario & Link]]></string>
+    <string name="solQ1">PREGUNTA 1: Pac-Man</string>
+    <string name="correct_answers">"Felicidades, <xliff:g id="name" example="Amy">%s</xliff:g>. Has tenido <xliff:g id="nCorrect" example="2">%d</xliff:g> respuestas correctas. Echa un vistazo a la solución de abajo. "</string>
+    <string name="toast">Has tenido  <xliff:g id="cAnsw" example="2">%d</xliff:g> respuestas correctas de <xliff:g id="nTotal" example="2">%d</xliff:g> preguntas.</string>
+</resources>

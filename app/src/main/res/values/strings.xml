@@ -21,5 +21,5 @@
     <string name="solQ4">QUESTION 4: Overwatch</string>
     <string name="correct_answers">Congrats, <xliff:g id="name" example="Amy">%s</xliff:g>. You got <xliff:g id="nCorrect" example="2">%d</xliff:g> correct answers. Check out the solution below. </string>
     <string name="show_solution">Solution</string>
-    <string name="toast">You got  <xliff:g id="cAnsw" example="2">%d</xliff:g> of <xliff:g id="nTotal" example="2">%d</xliff:g> questions right.</string>
+    <string name="toast">You got  <xliff:g id="cAnsw" example="2">%d</xliff:g> out of <xliff:g id="nTotal" example="2">%d</xliff:g> questions right.</string>
 </resources>

@@ -244,7 +244,7 @@
             android:layout_marginLeft="@dimen/margin24"
             android:layout_marginRight="@dimen/margin24"
             android:visibility="gone"
-            android:textColor="#000000" />
+            android:textColor="@color/black" />
 
         <Button
             android:id="@+id/solution"
@@ -264,7 +264,7 @@
             android:layout_marginLeft="@dimen/margin24"
             android:layout_marginRight="@dimen/margin24"
             android:visibility="gone"
-            android:textColor="#000000" />
+            android:textColor="@color/black" />
 
     </LinearLayout>
 

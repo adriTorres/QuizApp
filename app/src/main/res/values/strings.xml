@@ -23,4 +23,8 @@
     <string name="correct_answers_noName">Congrats. You got <xliff:g id="nCorrect" example="2">%d</xliff:g> correct answers. Check out the solution below. </string>
     <string name="show_solution">Solution</string>
     <string name="toast">You got  <xliff:g id="cAnsw" example="2">%d</xliff:g> out of <xliff:g id="nTotal" example="2">%d</xliff:g> questions right.</string>
+    <string name="q2a1">Mario</string>
+    <string name="q2a2">Zelda</string>
+    <string name="q2a3">Samus</string>
+    <string name="q2a4">Link</string>
 </resources>

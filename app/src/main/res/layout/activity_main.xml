@@ -109,28 +109,28 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="@dimen/checkMarg"
-                android:text="Mario" />
+                android:text="@string/q2a1" />
 
             <CheckBox
                 android:id="@+id/q2a2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="@dimen/checkMarg"
-                android:text="Zelda" />
+                android:text="@string/q2a2" />
 
             <CheckBox
                 android:id="@+id/q2a3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="@dimen/checkMarg"
-                android:text="Samux" />
+                android:text="@string/q2a3" />
 
             <CheckBox
                 android:id="@+id/q2a4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="@dimen/checkMarg"
-                android:text="Link" />
+                android:text="@string/q2a4" />
         </LinearLayout>
 
         <View

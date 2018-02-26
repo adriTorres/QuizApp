@@ -16,24 +16,20 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
             android:src="@drawable/pac" />
 
         <EditText
             android:id="@+id/name_field"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="@dimen/margin24"
+            android:layout_margin="@dimen/borderMarg"
             android:hint="@string/hint_name"
             android:inputType="textCapWords" />
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/margin8"
-            android:layout_marginLeft="@dimen/margin24"
-            android:layout_marginRight="@dimen/margin24"
-            android:text="@string/question1"
-            android:textColor="@color/black" />
+            style="@style/Question"
+            android:text="@string/question1" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -41,9 +37,9 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:layout_width="201dp"
-                android:layout_height="256dp"
-                android:layout_marginLeft="@dimen/margin24"
+                android:layout_width="@dimen/imgQ1Width"
+                android:layout_height="@dimen/imgQ1Height"
+                android:layout_marginLeft="@dimen/borderMarg"
                 android:adjustViewBounds="true"
                 android:src="@drawable/pacman2" />
 
@@ -58,49 +54,42 @@
                     android:id="@+id/q1a1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="@dimen/margin16"
+                    android:layout_marginLeft="@dimen/radioImgMarg"
                     android:text="@string/q1a1" />
 
                 <RadioButton
                     android:id="@+id/q1a2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="@dimen/margin16"
-                    android:layout_marginTop="@dimen/margin8"
+                    android:layout_marginLeft="@dimen/radioImgMarg"
+                    android:layout_marginTop="@dimen/radioMarg"
                     android:text="@string/q1a2" />
 
                 <RadioButton
                     android:id="@+id/q1a3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="@dimen/margin16"
-                    android:layout_marginTop="@dimen/margin8"
+                    android:layout_marginLeft="@dimen/radioImgMarg"
+                    android:layout_marginTop="@dimen/radioMarg"
                     android:text="@string/q1a3" />
 
                 <RadioButton
                     android:id="@+id/q1a4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="@dimen/margin16"
-                    android:layout_marginTop="@dimen/margin8"
+                    android:layout_marginLeft="@dimen/radioImgMarg"
+                    android:layout_marginTop="@dimen/radioMarg"
                     android:text="@string/q1a4" />
             </RadioGroup>
         </LinearLayout>
 
         <View
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/horLine"
-            android:layout_margin="@dimen/margin16"
+            style="@style/Line"
             android:background="@android:color/darker_gray" />
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/margin8"
-            android:layout_marginLeft="@dimen/margin24"
-            android:layout_marginRight="@dimen/margin24"
-            android:text="@string/question2"
-            android:textColor="@color/black" />
+            style="@style/Question"
+            android:text="@string/question2" />
 
         <ImageView
             android:layout_width="wrap_content"
@@ -112,57 +101,50 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="@dimen/margin8"
+            android:layout_marginTop="@dimen/auxMarg"
             android:orientation="horizontal">
 
             <CheckBox
                 android:id="@+id/q2a1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginRight="@dimen/margin16"
+                android:layout_marginRight="@dimen/checkMarg"
                 android:text="Mario" />
 
             <CheckBox
                 android:id="@+id/q2a2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginRight="@dimen/margin16"
+                android:layout_marginRight="@dimen/checkMarg"
                 android:text="Zelda" />
 
             <CheckBox
                 android:id="@+id/q2a3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginRight="@dimen/margin16"
+                android:layout_marginRight="@dimen/checkMarg"
                 android:text="Samux" />
 
             <CheckBox
                 android:id="@+id/q2a4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginRight="@dimen/margin8"
+                android:layout_marginRight="@dimen/checkMarg"
                 android:text="Link" />
         </LinearLayout>
 
         <View
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/horLine"
-            android:layout_margin="@dimen/margin16"
+            style="@style/Line"
             android:background="@android:color/darker_gray" />
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/margin8"
-            android:layout_marginLeft="@dimen/margin24"
-            android:layout_marginRight="@dimen/margin24"
-            android:text="@string/question3"
-            android:textColor="@color/black" />
+            style="@style/Question"
+            android:text="@string/question3" />
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/margin8"
+            android:layout_marginBottom="@dimen/auxMarg"
             android:adjustViewBounds="true"
             android:src="@drawable/nes" />
 
@@ -170,32 +152,25 @@
             android:id="@+id/name_console"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/margin16"
-            android:layout_marginRight="@dimen/margin16"
+            android:layout_marginLeft="@dimen/borderMarg"
+            android:layout_marginRight="@dimen/borderMarg"
             android:hint="@string/hint_console"
             android:inputType="textCapWords" />
 
         <View
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/horLine"
-            android:layout_margin="@dimen/margin16"
+            style="@style/Line"
             android:background="@android:color/darker_gray" />
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/margin8"
-            android:layout_marginLeft="@dimen/margin24"
-            android:layout_marginRight="@dimen/margin24"
-            android:text="@string/question4"
-            android:textColor="@color/black" />
+            style="@style/Question"
+            android:text="@string/question4" />
 
         <RadioGroup
             android:id="@+id/rgQ4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:layout_marginLeft="@dimen/margin24"
+            android:layout_marginLeft="@dimen/borderMarg"
             android:orientation="vertical">
 
             <RadioButton
@@ -208,21 +183,21 @@
                 android:id="@+id/q4a2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/margin8"
+                android:layout_marginTop="@dimen/radioMarg"
                 android:text="@string/q4a2" />
 
             <RadioButton
                 android:id="@+id/q4a3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/margin8"
+                android:layout_marginTop="@dimen/radioMarg"
                 android:text="@string/q4a3" />
 
             <RadioButton
                 android:id="@+id/q4a4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/margin8"
+                android:layout_marginTop="@dimen/radioMarg"
                 android:text="@string/q4a4" />
         </RadioGroup>
 
@@ -231,40 +206,30 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_marginBottom="@dimen/margin24"
-            android:layout_marginTop="@dimen/margin24"
+            android:layout_marginBottom="@dimen/borderMarg"
+            android:layout_marginTop="@dimen/borderMarg"
             android:onClick="submitAnswers"
             android:text="@string/submit_answers" />
 
         <TextView
             android:id="@+id/correctA"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/margin16"
-            android:layout_marginLeft="@dimen/margin24"
-            android:layout_marginRight="@dimen/margin24"
-            android:visibility="gone"
-            android:textColor="@color/black" />
+            style="@style/Summary"
+            android:visibility="gone" />
 
         <Button
             android:id="@+id/solution"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/borderMarg"
             android:onClick="showSolution"
             android:text="@string/show_solution"
-            android:layout_marginBottom="@dimen/margin24"
             android:visibility="gone"/>
 
         <TextView
             android:id="@+id/answers"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/margin16"
-            android:layout_marginLeft="@dimen/margin24"
-            android:layout_marginRight="@dimen/margin24"
-            android:visibility="gone"
-            android:textColor="@color/black" />
+            style="@style/Summary"
+            android:visibility="gone" />
 
     </LinearLayout>
 

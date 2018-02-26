@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="margin16">16dp</dimen>
-    <dimen name="margin8">8dp</dimen>
-    <dimen name="margin24">24dp</dimen>
+    <dimen name="checkMarg">16dp</dimen>
+    <dimen name="radioImgMarg">16dp</dimen>
+    <dimen name="radioMarg">8dp</dimen>
+    <dimen name="borderMarg">24dp</dimen>
+    <dimen name="auxMarg">8dp</dimen>
     <dimen name="horLine">1dp</dimen>
+    <dimen name="imgQ1Width">201dp</dimen>
+    <dimen name="imgQ1Height">256dp</dimen>
+    <dimen name="questionSize">16sp</dimen>
 </resources>

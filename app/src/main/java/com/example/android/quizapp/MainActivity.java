@@ -47,6 +47,8 @@ public class MainActivity extends AppCompatActivity {
 
     // Solutions
     private TextView answers;
+    private TextView answerSummary;
+    private Button  button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -61,8 +63,12 @@ public class MainActivity extends AppCompatActivity {
         cbQ2a4 = (CheckBox) findViewById(R.id.q2a4);
         textQ3 = (EditText) findViewById(R.id.name_console);
         rgQ4 = (RadioGroup) findViewById(R.id.rgQ4);
+
         answers = (TextView) findViewById(R.id.answers);
         answers.setText(getString(R.string.solQ1) + "\n" + getString(R.string.solQ2) + "\n" + getString(R.string.solQ3) + "\n" + getString(R.string.solQ4));
+        answerSummary = (TextView) findViewById(R.id.correctA);
+
+        button = (Button) findViewById(R.id.solution);
     }
 
     /**
@@ -72,7 +78,14 @@ public class MainActivity extends AppCompatActivity {
     public void submitAnswers(View view) {
         checkAnswers();
         String name = textName.getText().toString();
-        String summary = makeSummary(name);
+        String summary;
+
+        // Check if a name has been introduced
+        if(!name.equals(""))
+             summary = makeSummary(name);
+        else
+            summary = getString(R.string.correct_answers_noName, correctAnswers);
+
         display(summary);
         Toast.makeText(this, getString(R.string.toast, correctAnswers, nQuestion), Toast.LENGTH_SHORT).show();
         correctAnswers = 0;
@@ -84,11 +97,9 @@ public class MainActivity extends AppCompatActivity {
      * @param summary text needed to update
      */
     private void display(String summary) {
-        TextView answerSummary = (TextView) findViewById(R.id.correctA);
         answerSummary.setText(summary);
         answerSummary.setVisibility(View.VISIBLE);
 
-        Button  button = (Button) findViewById(R.id.solution);
         button.setVisibility(View.VISIBLE);
     }
 
@@ -166,8 +177,6 @@ public class MainActivity extends AppCompatActivity {
      * @return  The String to show
      */
     private String makeSummary(String name){
-        String ret = "";
-        ret += getString(R.string.correct_answers, name, correctAnswers);
-        return ret;
+        return getString(R.string.correct_answers, name, correctAnswers);
     }
 }

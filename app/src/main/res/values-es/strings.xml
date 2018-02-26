@@ -14,5 +14,6 @@
     <string name="solQ2"><![CDATA[PREGUNTA 2: Mario & Link]]></string>
     <string name="solQ1">PREGUNTA 1: Pac-Man</string>
     <string name="correct_answers">"Felicidades, <xliff:g id="name" example="Amy">%s</xliff:g>. Has tenido <xliff:g id="nCorrect" example="2">%d</xliff:g> respuestas correctas. Echa un vistazo a la solución de abajo. "</string>
+    <string name="correct_answers_noName">Felicidades. Has tenido <xliff:g id="nCorrect" example="2">%d</xliff:g> respuestas correctas. Echa un vistazo a la solución de abajo. </string>
     <string name="toast">Has tenido  <xliff:g id="cAnsw" example="2">%d</xliff:g> respuestas correctas de <xliff:g id="nTotal" example="2">%d</xliff:g> preguntas.</string>
 </resources>
